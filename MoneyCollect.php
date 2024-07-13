@@ -6,11 +6,11 @@ class MoneyCollect {
         $this->referenceId = date('YmdHi').mt_rand(11111, 99999);
         // Please use .env to save keys
         // For production
-        $this->live_publicKey = "live_pu_aRjMm2HBjfilPHz8CjvRoEoPVl5aNvoJUMzpJRpu4";
-        $this->live_privateKey = "live_pr_cLZCIf3RnyQJpHfopUbo7u7RiDBn3P2ygSgNUvCTo";
+        $this->live_publicKey = "";
+        $this->live_privateKey = "";
         // For testing sake...
-        $this->test_publicKey = "test_pu_1tY1JLhmjTu6oyjzS6BOa9OE5eSJzYshy6ExLVOOY";
-        $this->test_privateKey = "test_pr_1tY1JLhmjTu6oyjzS6BOeKua1WUFD570PPIzCKL9Q";
+        $this->test_publicKey = "";
+        $this->test_privateKey = "";
 
         $this->header = array(
             "Content-Type: application/json",
